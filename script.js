@@ -9,7 +9,7 @@ for (i = 1; i <= 15; i++) {
 for (i = 1; i <= 4; i++) {
     B[i] = []; //!!!!!!!!
     for (j = 1; j <= 4; j++) {
-        n = Math.floor(Math.random() * (A.length - 1));
+        n = Math.floor(Math.random() * (A.length ));
         B[i][j] = A[n];
         if (A[n] == "") { x = i; y = j; }
         A.splice(n, 1);
